@@ -1,0 +1,17 @@
+{
+    "name": "CodySource.Feedback",
+    "rootNamespace": "",
+    "references": [
+        "GUID:40aceb9c96b89b4439125a126e24f215",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
