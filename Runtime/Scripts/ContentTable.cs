@@ -43,8 +43,8 @@ namespace CodySource
                 headers.ForEach(h =>
                     cells.FindAll(c => c.col == h.col).ForEach(c =>
                         c.rect.sizeDelta = new Vector2(h.cellWidth, c.rect.sizeDelta.y)));
-                headers.ForEach(h => h.divider.SetActive(h.col <= headers.Count + 1));
-                cells.ForEach(c => c.divider.SetActive(c.col <= headers.Count + 1));
+                headers.ForEach(h => h.divider.SetActive(h.col < (headers.Count - 1) * 2));
+                cells.ForEach(c => c.divider.SetActive(c.col < (headers.Count - 1) * 2));
                 headers.ForEach(h => {
                     RectTransform row = headerParent.GetComponent<RectTransform>();
                     HorizontalLayoutGroup group = h.GetComponent<HorizontalLayoutGroup>();
