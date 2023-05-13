@@ -1,6 +1,6 @@
 {
   "name": "com.codysource.feedback",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "displayName": "Feedback",
   "description": "This package provides a small collection of prefabs for setting up a standardized feedback page.",
   "unity": "2020.3",

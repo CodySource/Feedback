@@ -82,8 +82,10 @@ namespace CodySource
                 {
                     headerPool.ForEach(h => Destroy(h.gameObject));
                     headerPool.Clear();
+                    foreach (KeyValuePair<GameObject, List<GameObject>> row in cellPool) Destroy(row.Key);
                     cellPool.Clear();
                 }
+                else foreach (KeyValuePair<GameObject, List<GameObject>> row in cellPool) row.Key.SetActive(false);
                 //  Load entries
                 for (int e = 0; e < pTable.entries.Length; e++)
                 {
