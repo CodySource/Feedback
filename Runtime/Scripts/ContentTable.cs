@@ -19,8 +19,8 @@ namespace CodySource
             public ScrollRect contentScroll = null;
             public Transform headerParent = null;
             public Transform contentParent = null;
-            private List<ContentTableHeader> headers = new List<ContentTableHeader>();
-            private List<ContentTableCell> cells = new List<ContentTableCell>();
+            public List<ContentTableHeader> headers = new List<ContentTableHeader>();
+            public List<ContentTableCell> cells = new List<ContentTableCell>();
 
             [Header("LOADING DATA")]
             public GameObject headerCellPrefab = null;
