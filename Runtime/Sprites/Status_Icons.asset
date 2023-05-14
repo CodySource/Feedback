@@ -64,6 +64,12 @@ MonoBehaviour:
     m_Scale: 1
     m_Name: COMPLETED
     m_HashCode: -477216339
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 4
+    m_Scale: 1
+    m_Name: HIDDEN
+    m_HashCode: -1558912278
   m_SpriteGlyphTable:
   - m_Index: 0
     m_Metrics:
@@ -74,7 +80,7 @@ MonoBehaviour:
       m_HorizontalAdvance: 140
     m_GlyphRect:
       m_X: 0
-      m_Y: 128
+      m_Y: 384
       m_Width: 128
       m_Height: 128
     m_Scale: 1
@@ -90,7 +96,7 @@ MonoBehaviour:
       m_HorizontalAdvance: 140
     m_GlyphRect:
       m_X: 128
-      m_Y: 128
+      m_Y: 384
       m_Width: 128
       m_Height: 128
     m_Scale: 1
@@ -105,8 +111,8 @@ MonoBehaviour:
       m_HorizontalBearingY: 110
       m_HorizontalAdvance: 140
     m_GlyphRect:
-      m_X: 0
-      m_Y: 0
+      m_X: 256
+      m_Y: 384
       m_Width: 128
       m_Height: 128
     m_Scale: 1
@@ -121,8 +127,24 @@ MonoBehaviour:
       m_HorizontalBearingY: 110
       m_HorizontalAdvance: 140
     m_GlyphRect:
-      m_X: 128
-      m_Y: 0
+      m_X: 384
+      m_Y: 384
+      m_Width: 128
+      m_Height: 128
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+    sprite: {fileID: -389010518, guid: 29d1a3fc55769f143b57453deaf7018a, type: 3}
+  - m_Index: 4
+    m_Metrics:
+      m_Width: 128
+      m_Height: 128
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 110
+      m_HorizontalAdvance: 140
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 256
       m_Width: 128
       m_Height: 128
     m_Scale: 1
