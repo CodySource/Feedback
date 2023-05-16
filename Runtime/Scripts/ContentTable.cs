@@ -78,7 +78,7 @@ namespace CodySource
                     header.divider.transform.SetParent(headerParent);
                 }
                 //  Wipe cell entries if there is a change in header count
-                if (headerPool.Count != cachedHeaderCount && cachedHeaderCount != 0)
+                if (headerPool.FindAll(h=>h.activeInHierarchy).Count != cachedHeaderCount && cachedHeaderCount != 0)
                 {
                     entryPool.ForEach(e => Destroy(e));
                     entryPool.Clear();
