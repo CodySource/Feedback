@@ -80,6 +80,8 @@ namespace CodySource
                 //  Wipe cell entries if there is a change in header count
                 if (headerPool.Count != cachedHeaderCount && cachedHeaderCount != 0)
                 {
+                    entryPool.ForEach(e => Destroy(e));
+                    entryPool.Clear();
                     foreach (KeyValuePair<GameObject, List<GameObject>> row in cellPool) Destroy(row.Key);
                     cellPool.Clear();
                 }
